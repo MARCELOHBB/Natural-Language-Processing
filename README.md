@@ -44,7 +44,7 @@ The following technologies were used:
  the data for imdb-reviews-pt-br.csv was downloaded from kaggle.
  
  
-  ## :pushpin: Examples - Graphics from the unsupervised learn files
+  ## :pushpin: Examples - wordclouds
   
   
  ## Wordclouds for positive and negative reviews

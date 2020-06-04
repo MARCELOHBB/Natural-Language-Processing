@@ -133,6 +133,6 @@ class Data:
   def most_repeated_words(self, words, token, quantidade):
     token_phrase = token.tokenize(words)
     frequency = nltk.FreqDist(token_phrase)
-    df_frequency = pd.DataFrame({"word": list(frequency.keys()), "Frequency": list(frequency.values())})
+    df_frequency = pd.DataFrame({"word": list(frequency.keys()), "frequency": list(frequency.values())})
     
-    return df_frequency.nlargest(columns = "Frequência", n = quantidade)
+    return df_frequency.nlargest(columns = "frequency", n = quantidade)
