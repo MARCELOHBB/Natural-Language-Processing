@@ -1,7 +1,7 @@
 # :rocket: natural_language_processing
 
 
-                                                     #Natural Language Processing
+#                                           Natural Language Processing
                                             Technologies   |    Project   
 
 
@@ -41,6 +41,7 @@ The following technologies were used:
  
  
  This project was developed in VScode, if you use the same IDE, run the program in Python Interactive Window to view the graphics.
+ 
  the data for imdb-reviews-pt-br.csv was downloaded from kaggle.
  
  
