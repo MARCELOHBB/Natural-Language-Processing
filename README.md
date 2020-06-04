@@ -1,7 +1,7 @@
 # :rocket: natural_language_processing
 
 
-                                           #Natural Language Processing
+                                           # Natural Language Processing
                                             Technologies   |    Project   
 
 
