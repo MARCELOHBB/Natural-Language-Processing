@@ -40,11 +40,11 @@ class Data:
   def generate_punct_token(self):
     self.punct_token = nltk.tokenize.WordPunctTokenizer()
 
-    punctuation = list()
+    punctuation_list = list()
     for punct in punctuation:
-      punctuation.append(punct)
+      punctuation_list.append(punct)
 
-    self.punctuation_stopwords = punctuation + self.irelevant_words
+    self.punctuation_stopwords = punctuation_list + self.irelevant_words
 
     processed_phrase = list()
 
@@ -84,11 +84,11 @@ class Data:
   def generate_punct_token_lower(self):
     self.punct_token = nltk.tokenize.WordPunctTokenizer()
 
-    punctuation = list()
+    punctuation_list = list()
     for punct in punctuation:
-      punctuation.append(punct)
+      punctuation_list.append(punct)
 
-    self.punctuation_stopwords = punctuation + self.irelevant_words
+    self.punctuation_stopwords = punctuation_list + self.irelevant_words
 
     processed_phrase = list()
 
@@ -109,11 +109,11 @@ class Data:
     self.punct_token = nltk.tokenize.WordPunctTokenizer()
     stemmer = nltk.RSLPStemmer()
 
-    punctuation = list()
+    punctuation_list = list()
     for punct in punctuation:
-      punctuation.append(punct)
+      punctuation_list.append(punct)
 
-    self.punctuation_stopwords = punctuation + self.irelevant_words
+    self.punctuation_stopwords = punctuation_list + self.irelevant_words
 
     processed_phrase = list()
 

@@ -32,7 +32,7 @@ def classify_text(text, text_column, column_classification):
   return accuracy, sparse_array
 
 def classify_text_tfidf(text, text_column, column_classification):
-  tfidf = TfidfVectorizer(lowercase=False, max_features=50, ngram_range = (1,2)) #max_features=50
+  tfidf = TfidfVectorizer(lowercase=False, ngram_range = (1,2)) #max_features=50
   bag_of_words = tfidf.fit_transform(text[text_column])
   train, test, train_class, test_class = train_test_split(bag_of_words, text[column_classification])
   
